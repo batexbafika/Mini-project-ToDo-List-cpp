@@ -99,6 +99,8 @@ int main() {
             cout << "Updated Task List:" << endl;
             cout << myList.display_all_Tasks() << endl;
         } else if (choice == 4) {
+            cout<<"Tasks Summary: " << endl;
+            cout << myList.display_all_Tasks() << endl;
             cout << "Exiting the application. Goodbye!" << endl;
             break;
         } else {
